@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33CD55CB27DB128E0038BCE4 /* NotificationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CD55CA27DB128E0038BCE4 /* NotificationDetailViewController.swift */; };
+		33CD55D027DB16FD0038BCE4 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CD55CF27DB16FD0038BCE4 /* Notification.swift */; };
 		33D6F96127BE1B31005E342F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D6F96027BE1B31005E342F /* AppDelegate.swift */; };
 		33D6F96327BE1B31005E342F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D6F96227BE1B31005E342F /* SceneDelegate.swift */; };
-		33D6F96527BE1B31005E342F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D6F96427BE1B31005E342F /* ViewController.swift */; };
+		33D6F96527BE1B31005E342F /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D6F96427BE1B31005E342F /* NotificationsViewController.swift */; };
 		33D6F96827BE1B31005E342F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D6F96627BE1B31005E342F /* Main.storyboard */; };
 		33D6F96A27BE1B31005E342F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33D6F96927BE1B31005E342F /* Assets.xcassets */; };
 		33D6F96D27BE1B31005E342F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D6F96B27BE1B31005E342F /* LaunchScreen.storyboard */; };
 		33D6F97827BE1B32005E342F /* base_architectureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D6F97727BE1B32005E342F /* base_architectureTests.swift */; };
 		33D6F98327BE1B32005E342F /* base_architectureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D6F98227BE1B32005E342F /* base_architectureUITests.swift */; };
+		33FFF0D627C7717F0058012D /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FFF0D527C7717F0058012D /* NotificationCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33CD55CA27DB128E0038BCE4 /* NotificationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationDetailViewController.swift; sourceTree = "<group>"; };
+		33CD55CF27DB16FD0038BCE4 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		33D6F95D27BE1B31005E342F /* base-architecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "base-architecture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D6F96027BE1B31005E342F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33D6F96227BE1B31005E342F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		33D6F96427BE1B31005E342F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33D6F96427BE1B31005E342F /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
 		33D6F96727BE1B31005E342F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33D6F96927BE1B31005E342F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33D6F96C27BE1B31005E342F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,7 @@
 		33D6F97E27BE1B32005E342F /* base-architectureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "base-architectureUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D6F98227BE1B32005E342F /* base_architectureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = base_architectureUITests.swift; sourceTree = "<group>"; };
 		33D6F98427BE1B32005E342F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33FFF0D527C7717F0058012D /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +107,11 @@
 			children = (
 				33D6F96027BE1B31005E342F /* AppDelegate.swift */,
 				33D6F96227BE1B31005E342F /* SceneDelegate.swift */,
-				33D6F96427BE1B31005E342F /* ViewController.swift */,
+				33D6F96427BE1B31005E342F /* NotificationsViewController.swift */,
+				33CD55CF27DB16FD0038BCE4 /* Notification.swift */,
+				33FFF0D527C7717F0058012D /* NotificationCell.swift */,
 				33D6F96627BE1B31005E342F /* Main.storyboard */,
+				33CD55CA27DB128E0038BCE4 /* NotificationDetailViewController.swift */,
 				33D6F96927BE1B31005E342F /* Assets.xcassets */,
 				33D6F96B27BE1B31005E342F /* LaunchScreen.storyboard */,
 				33D6F96E27BE1B31005E342F /* Info.plist */,
@@ -258,9 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33D6F96527BE1B31005E342F /* ViewController.swift in Sources */,
+				33FFF0D627C7717F0058012D /* NotificationCell.swift in Sources */,
+				33D6F96527BE1B31005E342F /* NotificationsViewController.swift in Sources */,
+				33CD55D027DB16FD0038BCE4 /* Notification.swift in Sources */,
 				33D6F96127BE1B31005E342F /* AppDelegate.swift in Sources */,
 				33D6F96327BE1B31005E342F /* SceneDelegate.swift in Sources */,
+				33CD55CB27DB128E0038BCE4 /* NotificationDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +378,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +433,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
